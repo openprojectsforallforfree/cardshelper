@@ -1,0 +1,17 @@
+﻿<Window x:Class="NeuGuesser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NeuGuesser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="377" Width="764">
+    <StackPanel Loaded="Grid_Loaded" Orientation="Vertical" HorizontalAlignment="Left"    VerticalAlignment="Top"  >
+        <Button Name="clean" Content="Clean" HorizontalAlignment="Center" Width="200" Click="cleanclicked"></Button>
+        <StackPanel Name="spade" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <StackPanel Name="club" Orientation="Horizontal" HorizontalAlignment="Left"    VerticalAlignment="Top" />
+        <StackPanel Name="diamond" Orientation="Horizontal" HorizontalAlignment="Left"   VerticalAlignment="Top" />
+        <StackPanel Name="heart" Orientation="Horizontal" HorizontalAlignment="Left"     VerticalAlignment="Top" />
+        
+    </StackPanel>
+</Window>
